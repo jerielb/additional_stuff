@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "additional_stuff:cyan_slime_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "additional_stuff:blocks/cyan_slime_block"
+}

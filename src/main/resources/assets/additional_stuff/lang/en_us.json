@@ -1,0 +1,22 @@
+{
+  "itemgroup.additional_stuff.additional_blocks": "Additional Blocks",
+  "itemgroup.additional_stuff.additional_items": "Additional Items",
+
+  "block.additional_stuff.charcoal_block": "Block of Charcoal",
+
+  "block.additional_stuff.red_slime_block": "Red Slime Block",
+  "block.additional_stuff.pink_slime_block": "Pink Slime Block",
+  "block.additional_stuff.magenta_slime_block": "Magenta Slime Block",
+  "block.additional_stuff.purple_slime_block": "Purple Slime Block",
+  "block.additional_stuff.blue_slime_block": "Blue Slime Block",
+  "block.additional_stuff.light_blue_slime_block": "Light Blue Slime Block",
+  "block.additional_stuff.cyan_slime_block": "Cyan Slime Block",
+  "block.additional_stuff.green_slime_block": "Green Slime Block",
+  "block.additional_stuff.yellow_slime_block": "Yellow Slime Block",
+  "block.additional_stuff.orange_slime_block": "Orange Slime Block",
+  "block.additional_stuff.brown_slime_block": "Brown Slime Block",
+  "block.additional_stuff.black_slime_block": "Black Slime Block",
+  "block.additional_stuff.gray_slime_block": "Gray Slime Block",
+  "block.additional_stuff.light_gray_slime_block": "Light Gray Slime Block",
+  "block.additional_stuff.white_slime_block": "White Slime Block"
+}

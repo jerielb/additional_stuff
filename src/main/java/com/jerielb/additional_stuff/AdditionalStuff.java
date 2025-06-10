@@ -1,7 +1,10 @@
 package com.jerielb.additional_stuff;
 
+import com.jerielb.additional_stuff.block.ModBlocks;
+import com.jerielb.additional_stuff.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,10 @@ public class AdditionalStuff implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 		
+		// Fuel
+		FuelRegistry.INSTANCE.add(ModBlocks.CHARCOAL_BLOCK, 16000);
 	}
 }

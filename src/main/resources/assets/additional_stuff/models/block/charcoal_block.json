@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "additional_stuff:block/charcoal_block"
+  }
+}
