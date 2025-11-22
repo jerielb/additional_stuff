@@ -18,5 +18,10 @@
   "block.additional_stuff.black_slime_block": "Black Slime Block",
   "block.additional_stuff.gray_slime_block": "Gray Slime Block",
   "block.additional_stuff.light_gray_slime_block": "Light Gray Slime Block",
-  "block.additional_stuff.white_slime_block": "White Slime Block"
+  "block.additional_stuff.white_slime_block": "White Slime Block",
+
+  "painting.additional_stuff.nacho_libre.title": "Nacho Libre",
+  "painting.additional_stuff.nacho_libre.author": "Nacho Libre",
+  "painting.additional_stuff.nacho_libre_2.title": "Nacho Libre 2",
+  "painting.additional_stuff.nacho_libre_2.author": "Nacho Libre 2"
 }
