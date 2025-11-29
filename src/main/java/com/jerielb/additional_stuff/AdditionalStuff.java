@@ -14,10 +14,10 @@ public class AdditionalStuff implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItemGroups.registerItemGroups();
-		ModBlocks.registerModBlocks();
+//		ModItemGroups.registerItemGroups();
+//		ModBlocks.registerModBlocks();
 		
 		// Fuel
-		FuelRegistry.INSTANCE.add(ModBlocks.CHARCOAL_BLOCK, 16000);
+//		FuelRegistry.INSTANCE.add(ModBlocks.CHARCOAL_BLOCK, 16000);
 	}
 }
