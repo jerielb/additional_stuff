@@ -14,7 +14,7 @@ public class AdditionalStuff implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItemGroups.registerItemGroups();
+		ModItemGroups.initialize();
 		ModBlocks.initialize();
 		
 		// Add the CHARCOAL_BLOCK to the registry of fuels, with a burn time of 30 seconds.

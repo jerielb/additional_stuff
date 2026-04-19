@@ -10,7 +10,10 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SlimeBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 
 import java.util.function.Function;
 
@@ -19,6 +22,98 @@ public class ModBlocks {
 			"charcoal_block",
 			Block::new,
 			BlockBehaviour.Properties.ofFullCopy(Blocks.COAL_BLOCK),
+			true
+	);
+	
+	// Slime blocks
+	public static final Block SLIME_BLOCK_BLACK = registerBlock(
+			"slime_block_black",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_BLUE = registerBlock(
+			"slime_block_blue",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_BROWN = registerBlock(
+			"slime_block_brown",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_CYAN = registerBlock(
+			"slime_block_cyan",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_GRAY = registerBlock(
+			"slime_block_gray",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_GREEN = registerBlock(
+			"slime_block_green",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GREEN).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_LIGHT_BLUE = registerBlock(
+			"slime_block_light_blue",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_BLUE).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_LIGHT_GRAY = registerBlock(
+			"slime_block_light_gray",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GRAY).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_MAGENTA = registerBlock(
+			"slime_block_magenta",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_ORANGE = registerBlock(
+			"slime_block_orange",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_ORANGE).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_PINK = registerBlock(
+			"slime_block_pink",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_PURPLE = registerBlock(
+			"slime_block_purple",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_RED = registerBlock(
+			"slime_block_red",
+			SlimeBlock::new, 
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_WHITE = registerBlock(
+			"slime_block_white",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.SNOW).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
+			true
+	);
+	public static final Block SLIME_BLOCK_YELLOW = registerBlock(
+			"slime_block_yellow",
+			SlimeBlock::new,
+			BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion(),
 			true
 	);
 	

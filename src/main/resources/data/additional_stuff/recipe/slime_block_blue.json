@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:slime_block",
+    "D": "minecraft:blue_dye"
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "id": "additional_stuff:slime_block_blue",
+    "count": 8
+  }
+}

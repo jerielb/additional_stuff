@@ -22,10 +22,26 @@ public class ModItemGroups {
 			.displayItems((params, output) -> {
 				// ### BLOCKS ###
 				output.accept(ModBlocks.CHARCOAL_BLOCK);
+				
+				output.accept(ModBlocks.SLIME_BLOCK_BLACK);
+				output.accept(ModBlocks.SLIME_BLOCK_BLUE);
+				output.accept(ModBlocks.SLIME_BLOCK_BROWN);
+				output.accept(ModBlocks.SLIME_BLOCK_CYAN);
+				output.accept(ModBlocks.SLIME_BLOCK_GRAY);
+				output.accept(ModBlocks.SLIME_BLOCK_GREEN);
+				output.accept(ModBlocks.SLIME_BLOCK_LIGHT_BLUE);
+				output.accept(ModBlocks.SLIME_BLOCK_LIGHT_GRAY);
+				output.accept(ModBlocks.SLIME_BLOCK_MAGENTA);
+				output.accept(ModBlocks.SLIME_BLOCK_ORANGE);
+				output.accept(ModBlocks.SLIME_BLOCK_PINK);
+				output.accept(ModBlocks.SLIME_BLOCK_PURPLE);
+				output.accept(ModBlocks.SLIME_BLOCK_RED);
+				output.accept(ModBlocks.SLIME_BLOCK_WHITE);
+				output.accept(ModBlocks.SLIME_BLOCK_YELLOW);
 			})
 			.build();
 	
-	public static void registerItemGroups() {
+	public static void initialize() {
 		AdditionalStuff.LOGGER.info("Registering Item Groups for " + AdditionalStuff.MOD_ID);
 		
 		// Register the group.
