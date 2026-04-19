@@ -1,6 +1,5 @@
 {
-  "itemgroup.additional_stuff.additional_blocks": "Additional Blocks",
-  "itemgroup.additional_stuff.additional_items": "Additional Items",
+  "creativeTab.additional_stuff": "Additional Stuff",
 
   "block.additional_stuff.charcoal_block": "Block of Charcoal",
 

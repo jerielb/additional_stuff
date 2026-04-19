@@ -1,18 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:charcoal"
-    }
-  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
+  "key": {
+    "#": "minecraft:charcoal"
+  },
   "result": {
-    "count": 1,
     "id": "additional_stuff:charcoal_block"
   }
 }
