@@ -13,7 +13,7 @@ import net.minecraft.world.item.ItemStack;
 
 public class ModItemGroups {
 	// tab group for ITEMS
-	public static final ResourceKey<CreativeModeTab> ADDITIONAL_FOOD_CREATIVE_TAB_KEY = ResourceKey.create(
+	public static final ResourceKey<CreativeModeTab> ADDITIONAL_STUFF_CREATIVE_TAB_KEY = ResourceKey.create(
 			BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(AdditionalStuff.MOD_ID, "additional_food")
 	);
 	public static final CreativeModeTab ADDITIONAL_STUFF_CREATIVE_TAB = FabricCreativeModeTab.builder()
@@ -45,6 +45,6 @@ public class ModItemGroups {
 		AdditionalStuff.LOGGER.info("Registering Item Groups for " + AdditionalStuff.MOD_ID);
 		
 		// Register the group.
-		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ADDITIONAL_FOOD_CREATIVE_TAB_KEY, ADDITIONAL_STUFF_CREATIVE_TAB);
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ADDITIONAL_STUFF_CREATIVE_TAB_KEY, ADDITIONAL_STUFF_CREATIVE_TAB);
 	}
 }
