@@ -18,5 +18,30 @@
   "block.additional_stuff.black_slime_block": "Black Slime Block",
   "block.additional_stuff.gray_slime_block": "Gray Slime Block",
   "block.additional_stuff.light_gray_slime_block": "Light Gray Slime Block",
-  "block.additional_stuff.white_slime_block": "White Slime Block"
+  "block.additional_stuff.white_slime_block": "White Slime Block",
+  
+  "block.additional_stuff.quartz_block": "Quartz Block",
+  
+  "item.additional_stuff.chicken_joy": "Chicken Joy",
+  "item.additional_stuff.jolly_spaghetti": "Jolly Spaghetti",
+  "item.additional_stuff.palabok": "Palabok",
+  "item.additional_stuff.burger_steak": "Burger Steak",
+  "item.additional_stuff.yum_burger": "Yum Burger",
+  "item.additional_stuff.champ_burger": "Champ Burger",
+  "item.additional_stuff.jolly_hotdog": "Jolly Hotdog",
+  "item.additional_stuff.fries": "Fries",
+  "item.additional_stuff.chicken_nuggets": "Chicken Nuggets",
+  "item.additional_stuff.peach_mango_pie": "Peach Mango Pie",
+
+  "item.additional_stuff.fish_ball": "Fish Ball",
+
+  "entity.minecraft.villager.jollibee_emp": "Jollibee Employee",
+  "entity.minecraft.villager.street_food_vendor": "Vendor",
+
+  "painting.additional_stuff.jollibee.title": "Jollibee",
+  "painting.additional_stuff.jollibee.author": "Jollibee",
+  "painting.additional_stuff.jollibee_2.title": "Jollibee 2",
+  "painting.additional_stuff.jollibee_2.author": "Jollibee 2",
+
+  "entity.additional_stuff.jollibee": "Jollibee"
 }

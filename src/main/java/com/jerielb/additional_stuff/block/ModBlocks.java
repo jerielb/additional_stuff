@@ -5,6 +5,7 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.SlimeBlock;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -53,6 +54,8 @@ public class ModBlocks {
 	public static final Block WHITE_SLIME_BLOCK = registerBlock("white_slime_block",
 			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.WHITE).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	
+	// ADDITIONAL_FOODS
+	public static final Block QUARTZ_BLOCK = registerBlock("quartz_block", new Block(AbstractBlock.Settings.create().mapColor(MapColor.OFF_WHITE).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(0.8F)));
 	
 	// helper methods
 	private static Block registerBlock(String name, Block block) {

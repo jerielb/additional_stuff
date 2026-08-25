@@ -1,8 +1,13 @@
 package com.jerielb.additional_stuff;
 
 import com.jerielb.additional_stuff.block.ModBlocks;
+import com.jerielb.additional_stuff.entity.ModEntities;
+import com.jerielb.additional_stuff.entity.client.JollibeeModel;
+import com.jerielb.additional_stuff.entity.client.JollibeeRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
 
 public class AdditionalStuffClient implements ClientModInitializer {
@@ -24,5 +29,9 @@ public class AdditionalStuffClient implements ClientModInitializer {
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_SLIME_BLOCK, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_SLIME_BLOCK, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_SLIME_BLOCK, RenderLayer.getTranslucent());
+		
+		// ADDITIONAL_FOODS
+		EntityModelLayerRegistry.registerModelLayer(JollibeeModel.JOLLIBEE, JollibeeModel::getTexturedModelData);
+		EntityRendererRegistry.register(ModEntities.JOLLIBEE, JollibeeRenderer::new);
 	}
 }

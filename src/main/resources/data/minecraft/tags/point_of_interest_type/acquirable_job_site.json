@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "additional_stuff:jollibee_emp_poi",
+      "required": false
+    },
+    {
+      "id": "additional_stuff:street_food_vendor",
+      "required": false
+    }
+  ]
+}
